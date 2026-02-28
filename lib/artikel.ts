@@ -10,8 +10,6 @@ export interface Article {
   category: string;
 }
 
-
-
 export const articles: Article[] = [
   {
     id: 1,
@@ -62,7 +60,7 @@ Pengembangan dilakukan intensif selama musim dingin dan diuji dalam sesi tes pri
 
 Fabio Quartararo menyebut peningkatan ini sangat terasa terutama dalam duel di trek lurus.
     `,
-    image: "/images/3.jpg",
+    image: "/images/image.jpg",
     date: "2026-01-20",
     author: "X",
     category: "Technical",
@@ -98,7 +96,7 @@ Brad Binder optimis dengan potensi timnya setelah hasil positif dalam beberapa s
 
 Manajemen KTM menargetkan kemenangan reguler sebelum akhir musim.
     `,
-    image: "/images/5.jpg",
+    image: "/images/image.jpg",
     date: "2026-01-26",
     author: "X",
     category: "Team News",
