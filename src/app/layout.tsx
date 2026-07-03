@@ -116,10 +116,10 @@ export default function RootLayout({
         <Footer />
         {process.env.VERCEL_ENV  === "production" && (
           <>
-            <Script
+            {/* <Script
               src="https://welcomingexpulsion.com/42/75/b6/4275b6b88bb951ce2cf784078cdde0bd.js"
               strategy="afterInteractive"
-            />
+            /> */}
           </>
         )}
       </body>
