@@ -20,11 +20,12 @@ export const DataStreams: Streams[] = [
     id: 1,
     title: "Live Streaming MotoGP - SPOTV 2",
     slug: "live-streaming-motogp-spotv-2",
-    type: "dash",
+    type: "hls",
     links: {
       id: "7eea72d6075245a99ee3255603d58853",
       key: "6848ef60575579bf4d415db1032153ed",
-      url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+      url: "https://s1.strea.ru/index.m3u8",
+      // url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
     },
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
